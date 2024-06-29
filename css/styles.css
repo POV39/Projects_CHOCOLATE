@@ -1,0 +1,303 @@
+body {
+font-family: "Montserrat", sans-serif;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+cursor: pointer
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*--------header------- */
+
+.header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-logo-italic {
+font-style: italic;
+}
+
+.header-menu-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+/*--------hero------- */
+
+.hero {
+    background-color: gray;
+}
+
+.hero-title {
+font-weight: 500;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-primary-btn {
+font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-primary-btn:hover,
+.hero-primary-btn:focus {
+color: #fd9222;
+}
+
+.hero-secondary-btn {
+    font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+}
+
+.hero-scroll-btn {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.03em;
+        color: #fff;
+}
+
+/*--------features------- */
+
+.features {
+    background-color: #1e1823;
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.features-item-text {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*--------taste------- */
+
+.taste {}
+
+.teaste-title-accent {
+color: #fd9222;
+}
+
+.taste-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.taste-text {
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.taste-list {
+
+}
+
+.taste-item {
+
+}
+
+.taste-image {
+
+}
+
+.taste-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;        
+}
+
+/*--------made------- */
+
+.made {}
+
+.made-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.made-title-accent {
+color: #fd9222;
+}
+
+.made-images {}
+
+.made-subtitle {
+font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    color: #111;
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+/*--------reviewe------- */
+
+.reviewe {}
+
+.reviewe-title {
+font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+color: #111;
+}
+
+.reviewe-title-accent {
+color: #fd9222;
+}
+
+.reviewe-list {}
+
+.review-item {}
+
+.review-image {}
+
+.review-subtitle {
+font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #111;
+}
+
+.review-text {
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+
+/*--------reviewe------- */
+.footer {
+background: #1e1823;
+}
+
+.footer-title {
+font-weight: 500;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-title-accent {
+color: #fd9222;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        color: #fff;
+}
+
+.footer-address {
+font-style: normal;
+}
+
+.footer-address-list {}
+
+.footer-address-item {
+}
+
+.footer-address-link {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.footer-navigation {}
+
+.footer-menu-list {}
+
+.footer-menu-item {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-menu-link {
+
+}
